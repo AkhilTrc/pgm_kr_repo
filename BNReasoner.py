@@ -42,6 +42,8 @@ with open(f'd-seps_in_bn_graph[{i}].txt', 'w') as f:
 # print (bn_graph.bn.draw_structure())
 
 def dsep(bn_graph):
-    # module for d-separation
+    # module for d-separation.
+    # needs x, y, and z nodes as input.
+    # check if x is d-separated from y given z. 
 
     return None
