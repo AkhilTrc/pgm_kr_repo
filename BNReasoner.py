@@ -39,4 +39,8 @@ with open(f'd-seps_in_bn_graph[{i}].txt', 'w') as f:
                         print(f"Is {var1} d-separated from {var2} given {var3}? ", nx.d_separated(bn_graph.bn.structure, {var1}, {var2}, {var3}), file=f)
 """
 
-print (bn_graph.bn.draw_structure())
+# print (bn_graph.bn.draw_structure())
+
+def dsep(bn_graph, nodes):
+    # module for d-separation
+    return None
