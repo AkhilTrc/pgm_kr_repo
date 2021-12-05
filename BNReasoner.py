@@ -16,3 +16,5 @@ class BNReasoner:
             self.bn = net
 
     # TODO: This is where your methods should go
+BN_graph = BNReasoner("testing/new.BIFXML")
+print (BN_graph.bn.draw_structure())
